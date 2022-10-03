@@ -171,3 +171,10 @@ button {
     flex-basis: calc((100% - 30px) / 3);
     padding-bottom: 50px;
 }
+
+.button-border{
+    border-top: 1px solid grey;
+    border-bottom: 1px solid grey;
+    background-color: white;
+    color: black;
+}
