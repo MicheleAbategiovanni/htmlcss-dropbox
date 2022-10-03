@@ -68,12 +68,12 @@ button{
     padding: 40px 0;
 }
 
-.text-header{
+[class^="text-"]{
     flex-basis: 60%;
     position: relative;
 }
 
-.text-header >*{
+.text-box >*{
     margin-bottom: 40px;
 }
 
@@ -148,4 +148,15 @@ button{
 
 .text-column>div{
     padding-top: 35px;
+}
+
+.partner{
+    padding: 50px;
+}
+
+.button-white{
+    background-color: white;
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
 }
