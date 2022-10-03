@@ -222,3 +222,8 @@ footer {
     padding-bottom: 15px;
     padding-top: 10px;
 }
+
+.text-box a,
+.type-account-container a {
+    color: blue;
+}
