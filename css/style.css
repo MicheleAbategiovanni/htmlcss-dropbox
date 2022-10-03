@@ -1,3 +1,4 @@
+
 *{
     margin: 0;
     padding: 0;
@@ -9,7 +10,6 @@ li{
 }
 
 img{
-    width: 100%;
     max-width: 100%;
 }
 
@@ -18,11 +18,28 @@ a{
     color: black
 }
 
+h1{
+    font-size: 6rem;
+    font-weight: bold;
+}
+
+button{
+    background-color: rgb(1, 97, 255);
+    border: 0px solid;
+    padding: 10px;
+    color: white;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
     padding: 20px;
     align-items: center;
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    top: 0;
 }
 
 .nav-container > div > ul{
@@ -31,3 +48,30 @@ a{
     align-items: center;
 }
 
+.header-text-container{
+    max-width: 1200px;
+    margin: 90px auto;
+    position: relative;
+    top: 120px;
+}
+
+[class^="column-"]{
+    display: flex;
+    padding: 40px 0;
+
+}
+
+.text-header{
+    flex-basis: 60%;
+    position: relative;
+}
+
+.text-header >*{
+    margin-bottom: 40px;
+}
+
+.arrow-icon{
+    font-size: 50px;
+    position: absolute;
+    bottom: 35px;
+}
