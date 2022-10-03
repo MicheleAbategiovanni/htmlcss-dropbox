@@ -58,7 +58,6 @@ button{
 [class^="column-"]{
     display: flex;
     padding: 40px 0;
-
 }
 
 .text-header{
@@ -74,4 +73,35 @@ button{
     font-size: 50px;
     position: absolute;
     bottom: 35px;
+}
+
+.section-container{
+    max-width: 920px;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.account-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.type-account-container{
+    border: 1px solid grey;
+    flex-basis: 30%;
+}
+
+.title-type{
+    padding: 10px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.section-container>*{
+    padding-bottom: 40px;
+}
+
+.price::before{
+    content: "\20AC";
 }
