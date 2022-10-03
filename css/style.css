@@ -23,6 +23,10 @@ h1{
     font-weight: bold;
 }
 
+h2{
+    font-size: 2.5rem;
+}
+
 button{
     background-color: rgb(1, 97, 255);
     border: 0px solid;
@@ -87,9 +91,10 @@ button{
     max-width: 920px;
     margin: 0 auto;
     padding: 40px 0;
+    
 }
 
-.account-container{
+.main-container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
