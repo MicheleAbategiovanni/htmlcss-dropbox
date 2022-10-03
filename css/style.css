@@ -48,6 +48,14 @@ button{
     align-items: center;
 }
 
+.section-container>*{
+    padding-bottom: 40px;
+}
+
+.type-account-container>*{
+    padding: 20px;
+}
+
 .header-text-container{
     max-width: 1200px;
     margin: 90px auto;
@@ -94,14 +102,27 @@ button{
 
 .title-type{
     padding: 10px;
-    border: 1px solid grey;
+    border-bottom: 1px solid grey;
     text-align: center;
-}
-
-.section-container>*{
-    padding-bottom: 40px;
 }
 
 .price::before{
     content: "\20AC";
+}
+
+.border-grey{
+    border:1px solid grey;
+    width: 20%;
+    padding: 0px;
+    margin-left: 20px;
+}
+
+.list-account>*{
+    display: flex;
+    column-gap: 5px;
+    padding-bottom: 15px;
+}
+
+.blue > li > :first-child{
+    color: rgb(1, 97, 255);
 }
