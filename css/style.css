@@ -12,11 +12,6 @@ img {
     max-width: 100%;
 }
 
-a {
-    text-decoration: none;
-    color: black
-}
-
 h1 {
     font-size: 6rem;
     font-weight: bold;
@@ -31,6 +26,10 @@ button {
     border: 0px solid;
     padding: 10px;
     color: white;
+}
+
+footer {
+    background-color: black
 }
 
 .nav-container {
@@ -49,6 +48,11 @@ button {
     display: flex;
     gap: 15px;
     align-items: center;
+}
+
+.nav-container>div>ul>li>* {
+    text-decoration: none;
+    color: black;
 }
 
 .section-container>* {
@@ -172,30 +176,49 @@ button {
     padding-bottom: 50px;
 }
 
-.button-border{
+.button-border {
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
     background-color: white;
     color: black;
 }
 
-.full-width{
+.full-width {
     width: 100%;
     margin-left: 0px;
 }
-.faq-container{
+
+.faq-container {
     line-height: 70px;
     padding-top: 40px;
 }
 
-.faq-body{
+.faq-body {
     position: relative;
 }
 
-.faq-body::after{
+.faq-body::after {
     content: '\02795';
     /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     position: absolute;
     right: 60px;
+}
+
+.footer-language>* {
+    padding-top: 40px;
+    color: grey;
+}
+
+.footer-text,
+.footer-text a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-text>*,
+.footer-text li {
+    color: white;
+    padding-bottom: 15px;
+    padding-top: 10px;
 }
