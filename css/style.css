@@ -178,3 +178,24 @@ button {
     background-color: white;
     color: black;
 }
+
+.full-width{
+    width: 100%;
+    margin-left: 0px;
+}
+.faq-container{
+    line-height: 70px;
+    padding-top: 40px;
+}
+
+.faq-body{
+    position: relative;
+}
+
+.faq-body::after{
+    content: '\02795';
+    /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    position: absolute;
+    right: 60px;
+}
