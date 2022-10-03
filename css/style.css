@@ -227,3 +227,11 @@ footer {
 .type-account-container a {
     color: blue;
 }
+
+.title-account>*{
+    padding-bottom: 10px;
+}
+
+.title-account> div {
+    color: grey;
+}
