@@ -126,3 +126,26 @@ button{
 .blue > li > :first-child{
     color: rgb(1, 97, 255);
 }
+
+.enterprise-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.text-column{
+    flex-basis: 70%;
+    padding: 0 20px;
+}
+
+.button-column{
+    flex-grow: 1;
+    text-align: center;;
+}
+
+.text-column>h2{
+    padding-bottom: 15px;
+}
+
+.text-column>div{
+    padding-top: 35px;
+}
