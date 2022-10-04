@@ -91,7 +91,7 @@ header .container-large {
     padding: 20px;
 }
 
-[class^="column-"] {
+.flex {
     display: flex;
     padding: 40px 0;
 }
@@ -272,11 +272,11 @@ header .container-large {
     width: 50%;
 }
 
-.footer-text li{
+.footer-text li {
     padding-bottom: 5px;
 }
 
-.container-radiobutton{
+.container-radiobutton {
     display: inline-block;
     position: relative;
     padding-left: 35px;
@@ -287,17 +287,17 @@ header .container-large {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
-  }
-  
-  /* Hide the browser's default radio button */
-  .container-radiobutton input {
+}
+
+/* Hide the browser's default radio button */
+.container-radiobutton input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
-  }
-  
-  /* Create a custom radio button */
-  .checkmark {
+}
+
+/* Create a custom radio button */
+.checkmark {
     position: absolute;
     top: 0;
     left: 0;
@@ -305,36 +305,36 @@ header .container-large {
     width: 25px;
     background-color: #eee;
     border-radius: 50%;
-  }
-  
-  
-  /* When the radio button is checked, add a blue background */
-  .container-radiobutton input:checked ~ .checkmark {
+}
+
+
+/* When the radio button is checked, add a blue background */
+.container-radiobutton input:checked~.checkmark {
     background-color: #2196F3;
-  }
-  
-  /* Create the indicator (the dot/circle - hidden when not checked) */
-  .checkmark:after {
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
     content: "";
     position: absolute;
     display: none;
-  }
-  
-  /* Show the indicator (dot/circle) when checked */
-  .container-radiobutton input:checked ~ .checkmark:after {
-    display: block;
-  }
-  
-  /* Style the indicator (dot/circle) */
-  .container-radiobutton .checkmark:after {
-       top: 9px;
-      left: 9px;
-      width: 8px;
-      height: 8px;
-      border-radius: 50%;
-      background: white;
-  }
+}
 
-  .border{
+/* Show the indicator (dot/circle) when checked */
+.container-radiobutton input:checked~.checkmark:after {
+    display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.container-radiobutton .checkmark:after {
+    top: 9px;
+    left: 9px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.border {
     border: 1px solid grey;
-  }
+}
