@@ -96,13 +96,17 @@ header .container-large {
     padding: 40px 0;
 }
 
-[class^="text-"] {
+.row-60{
     flex-basis: 60%;
     position: relative;
 }
 
-.text-box>* {
+.row-60>* {
     margin-bottom: 40px;
+}
+
+.row-40{
+    flex-basis: 40%;
 }
 
 .arrow-icon {
@@ -228,7 +232,7 @@ header .container-large {
     flex-basis: calc((100% - 30px) / 5);
 }
 
-.text-box a,
+.row-60 a,
 .account a {
     color: blue;
 }
