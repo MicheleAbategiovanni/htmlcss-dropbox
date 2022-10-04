@@ -108,7 +108,6 @@ header .container-large {
     max-width: 920px;
     margin: 0 auto;
     padding: 40px 0;
-
 }
 
 .main-container {
@@ -275,4 +274,8 @@ header .container-large {
 
 .img-center img {
     width: 50%;
+}
+
+.footer-text li{
+    padding-bottom: 5px;
 }
