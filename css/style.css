@@ -215,6 +215,10 @@ header .container-large {
     padding: 50px;
 }
 
+.partner>*{
+    padding-bottom: 20px;
+}
+
 .button-white {
     background-color: white;
     border: 1px solid black;
