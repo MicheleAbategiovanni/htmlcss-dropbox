@@ -187,6 +187,10 @@ header .container-large {
     padding-bottom: 50px;
 }
 
+.border {
+    border: 1px solid grey;
+}
+
 .button-border {
     border-top: 1px solid grey;
     border-bottom: 1px solid grey;
@@ -338,6 +342,27 @@ header .container-large {
     background: white;
 }
 
-.border {
-    border: 1px solid grey;
+.accordion ul,
+.accordion li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
+.accordion li a{
+    text-decoration: none;
+    display: block;
+    color: #000000;
+}
+.accordion .accordion-content{
+    font-size: 1em;
+    padding: 20px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    display: none;
+    margin-bottom: 15px;
+}
+
+.accordion li a:hover ~ .accordion-content{
+    display: block;
+} 
+
