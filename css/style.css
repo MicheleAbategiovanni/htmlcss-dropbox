@@ -78,7 +78,7 @@ footer {
 
 }
 
-header .container-large{
+header .container-large {
     position: relative;
     top: 120px;
     margin: 90px auto;
@@ -137,6 +137,9 @@ header .container-large{
     border: 1px solid grey;
     width: 20%;
     padding: 0px;
+}
+
+.type-account-container .border-grey {
     margin-left: 20px;
 }
 
@@ -163,10 +166,7 @@ header .container-large{
 .button-column {
     flex-grow: 1;
     text-align: center;
-    ;
 }
-
-
 
 .text-column>div {
     padding-top: 35px;
@@ -234,32 +234,45 @@ header .container-large{
     color: blue;
 }
 
-.title-account>*{
+.title-account>* {
     padding-bottom: 10px;
 }
 
-.title-account> div {
+.title-account>div {
     color: grey;
 }
 
-[class^="img-"]{
-    flex-basis: calc(100% / 3 );
+[class^="img-"] {
+    flex-basis: calc(100% / 3);
 }
 
-.box-img{
+.box-img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
 }
 
-.card-image{
+.card-image {
     width: 50%;
     aspect-ratio: 1/1;
 }
 
-.box-img img{
+.box-img img {
     width: 50%;
     margin: auto;
     position: relative;
     top: 100px;
+    filter: invert(1);
+}
+
+.img-center {
+    padding: 30px;
+}
+
+.img-center>* {
+    margin-bottom: 40px;
+}
+
+.img-center img {
+    width: 50%;
 }
