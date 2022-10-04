@@ -50,7 +50,6 @@ footer {
 .container-large {
     max-width: 1200px;
     margin: 0 auto;
-
 }
 
 .nav-container {
@@ -65,7 +64,7 @@ footer {
     top: 0;
 }
 
-.nav-container>div>ul,
+.nav-container ul,
 .nav-container>* {
     display: flex;
     gap: 15px;
@@ -96,16 +95,17 @@ header .container-large {
     padding: 40px 0;
 }
 
-.row-60{
+.row-60 {
     flex-basis: 60%;
     position: relative;
 }
 
-.row-60>* {
+.row-60>*,
+.img-center>* {
     margin-bottom: 40px;
 }
 
-.row-40{
+.row-40 {
     flex-basis: 40%;
 }
 
@@ -228,7 +228,7 @@ header .container-large {
     padding-top: 10px;
 }
 
-.footer-text{
+.footer-text {
     flex-basis: calc((100% - 30px) / 5);
 }
 
@@ -261,7 +261,6 @@ header .container-large {
 }
 
 .box-img img {
-    width: 50%;
     margin: auto;
     position: relative;
     top: 100px;
@@ -272,11 +271,7 @@ header .container-large {
     padding: 30px;
 }
 
-.img-center>* {
-    margin-bottom: 40px;
-}
-
-.img-center img {
+[class^="img-"] img {
     width: 50%;
 }
 
