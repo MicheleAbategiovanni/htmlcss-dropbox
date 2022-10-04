@@ -224,6 +224,10 @@ header .container-large {
     padding-top: 10px;
 }
 
+.footer-text{
+    flex-basis: calc((100% - 30px) / 5);
+}
+
 .text-box a,
 .account a {
     color: blue;
