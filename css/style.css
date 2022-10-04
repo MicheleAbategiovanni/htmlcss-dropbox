@@ -16,6 +16,7 @@ li {
 
 img {
     max-width: 100%;
+    display: block;
 }
 
 h1 {
@@ -25,6 +26,7 @@ h1 {
 
 h2 {
     font-size: 2.5rem;
+    padding-bottom: 15px;
 }
 
 button {
@@ -50,7 +52,8 @@ footer {
     top: 0;
 }
 
-.nav-container>div>ul {
+.nav-container>div>ul,
+.nav-container>* {
     display: flex;
     gap: 15px;
     align-items: center;
@@ -69,11 +72,16 @@ footer {
     padding: 20px;
 }
 
-.header-text-container {
+.container-large {
     max-width: 1200px;
-    margin: 90px auto;
+    margin: 0 auto;
+
+}
+
+header .container-large{
     position: relative;
     top: 120px;
+    margin: 90px auto;
 }
 
 [class^="column-"] {
@@ -158,9 +166,7 @@ footer {
     ;
 }
 
-.text-column>h2 {
-    padding-bottom: 15px;
-}
+
 
 .text-column>div {
     padding-top: 35px;
@@ -205,7 +211,6 @@ footer {
 
 .faq-body::after {
     content: '\02795';
-    /* Unicode character for "plus" sign (+) */
     font-size: 13px;
     position: absolute;
     right: 60px;
@@ -216,14 +221,9 @@ footer {
     color: grey;
 }
 
-.footer-text,
+.footer-text>*,
 .footer-text a {
     text-decoration: none;
-    color: white;
-}
-
-.footer-text>*,
-.footer-text li {
     color: white;
     padding-bottom: 15px;
     padding-top: 10px;
