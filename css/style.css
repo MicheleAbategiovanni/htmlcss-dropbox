@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+:root {
+    --color-primary: rgb(1, 97, 255);
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -30,7 +34,7 @@ h2 {
 }
 
 button {
-    background-color: rgb(1, 97, 255);
+    background-color: var(--color-primary);
     border: 0px solid;
     padding: 10px;
     color: white;
@@ -109,7 +113,7 @@ header .container-large {
     flex-basis: 40%;
 }
 
-.row-40.center{
+.row-40.center {
     text-align: center;
 }
 
@@ -130,13 +134,7 @@ header .container-large {
     display: inline-block;
     position: relative;
     padding-left: 35px;
-    margin-bottom: 12px;
     cursor: pointer;
-    font-size: 22px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
 .container-radiobutton input {
@@ -210,7 +208,7 @@ header .container-large {
 }
 
 .blue>li> :first-child {
-    color: rgb(1, 97, 255);
+    color: var(--color-primary);
 }
 
 .partner {
@@ -325,19 +323,20 @@ header .container-large {
     padding-bottom: 5px;
 }
 
-
 .accordion ul,
-.accordion li{
+.accordion li {
     list-style: none;
     margin: 0;
     padding: 0;
 }
-.accordion li a{
+
+.accordion li a {
     text-decoration: none;
     display: block;
     color: #000000;
 }
-.accordion .accordion-content{
+
+.accordion .accordion-content {
     font-size: 1em;
     padding: 20px;
     background: #f9f9f9;
@@ -346,7 +345,6 @@ header .container-large {
     margin-bottom: 15px;
 }
 
-.accordion li a:hover ~ .accordion-content{
+.accordion li a:hover~.accordion-content {
     display: block;
-} 
-
+}
