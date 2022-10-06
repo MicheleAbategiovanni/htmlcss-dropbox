@@ -45,6 +45,13 @@ footer {
 }
 
 
+#btn-login{
+    background-color: var(--color-primary);
+    border: 0px solid;
+    padding: 10px;
+    color: white;
+}
+
 .container-small {
     max-width: 920px;
     margin: 0 auto;
